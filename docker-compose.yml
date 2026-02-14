@@ -1,0 +1,17 @@
+services:
+  ubuntu-box:
+    image: ubuntu:latest
+    container_name: my-ubuntu-dev
+    # Keeps the container running by simulating an interactive terminal
+    tty: true 
+    stdin_open: true
+    # Ensures the container restarts unless you manually stop it
+    restart: unless-stopped
+    volumes:
+      - my-data:/app/data
+
+volumes:
+  my-data:
+    # This named volume persists even if the container is removed
+# docker compose up -d
+# docker exec -it my-ubuntu-dev bash
