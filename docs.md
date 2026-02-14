@@ -1,10 +1,16 @@
-# Linux Command Documentation
+# Linux Documentation
 
 This documentation has been reorganized into separate files for better navigation.
 
-## Documentation Location
+---
 
-All command documentation is now in the **[linux-commands](linux-commands/)** directory.
+## 1. Linux Commands
+
+All command documentation is in the **[linux-commands](linux-commands/)** directory.
+
+## 2. Linux Directory Structure
+
+Learn about important Linux directories in **[linux-imp-directories](linux-imp-directories/)** directory.
 
 ## Quick Links
 
